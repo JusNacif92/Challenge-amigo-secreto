@@ -1,7 +1,7 @@
 //Declaracion de Variables
 let amigos = [];
 
-alert('hota');
+console.log("hola");
 
 //Esta funcion espara agregar amigos al juego
 function agregarAmigo() {
