@@ -1,1 +1,8 @@
-console.log ("Ejecutando el Sistema");
+//Declaracion de Variables
+let amigos = [];
+
+function añadirAmigo() {
+    document.getElementById("text");
+
+    
+}
