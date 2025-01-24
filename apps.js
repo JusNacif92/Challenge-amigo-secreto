@@ -2,7 +2,7 @@
 let amigos = [];
 
 function añadirAmigo() {
-    document.getElementById("text");
+    let nombreUsuario = (document.getElementById("text").value);
 
     
 }
