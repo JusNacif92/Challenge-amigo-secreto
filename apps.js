@@ -12,11 +12,17 @@ function agregarAmigo() {
         ingrese numeros.*/
         alert('Porfavor, inserte un nombre');
     }else{
-        //Actualiozar el array si el valor es valido.
+        //Actualizar el array si el valor es valido.
         amigos.push (nombreUsuario);//Guarada el nombre en el array amigos
         console.log (amigos);//Se guarda en la consola
-
     } 
+    limpiarCaja();
+}
+
+function limpiarCaja () {
+    //Variable para guardar el valor de la caja en blanco o para limpiarla
+    document.getElementById('amigo').value = '';
+    
 }
 
 agregarAmigo();
